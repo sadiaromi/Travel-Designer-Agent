@@ -52,7 +52,7 @@ Travel-Agent/
 
 ### 1. `DestinationAgent`
 - Calls the model (`deepseek/deepseek-r1:free`) via OpenRouter.
-- Sends user input (like "romantic beach vacation in summer").
+- Sends user input (like "“A road trip across scenic European countryside, with small villages").
 - Returns city, country, description, and highlights as JSON.
 
 ### 2. `BookingAgent`
