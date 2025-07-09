@@ -80,7 +80,11 @@ uv venv
 ### ✅ Step 2: Install dependencies
 ```bash
 
-uv  add -r requirements.txt
+uv  add chainlit
+
+uv  add openai 
+
+uv  add python-dotenv
 
 ```
 
@@ -96,8 +100,8 @@ chainlit run chainlit_app.py
 
 ## 💬 Sample Prompts You Can Try
 
-Looking for a food and culture focused trip in Asia.
-Suggest a peaceful destination with museums and relaxing vibes.
-Where should I go in winter for snow and fun?
-I want a short weekend adventure with hiking and local food.
+- Looking for a food and culture focused trip in Asia.
+- Suggest a peaceful destination with museums and relaxing vibes.
+- Where should I go in winter for snow and fun?
+- I want a short weekend adventure with hiking and local food.
 
